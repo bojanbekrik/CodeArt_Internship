@@ -1,0 +1,446 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Plus Jakarta Sans, sans-serif;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+.headerText {
+    position: absolute;
+    /*top: -530px;*/
+    /*left: 370px;*/
+    top: 30px;
+    left: 370px;
+    opacity: 80%;
+}
+
+.headerPic{
+    grid-column: span 2;
+}
+
+.realBigText{
+    font-size: 60px;
+}
+
+.midText{
+    font-size: 40px;
+}
+
+.lilMidText{
+    font-size: 30px;
+}
+
+.smallerText {
+    font-size: 25px;
+}
+
+.smallestText {
+    font-size: 20px;
+}
+.container{
+    display: grid;
+    grid-template-columns: auto auto;
+}
+
+.content1{
+    grid-column: span 2;
+    align-self: center;
+    justify-self: center;
+    text-align: center;
+}
+
+.greenText {
+    font-size: 40px;
+    color: #549663;
+    font-weight: bold;
+}
+
+.content2 {
+    align-self: end;
+    justify-self: end;
+    text-align: center;
+    border: 2px solid lightgray;
+    border-radius: 10px;
+    margin: 10px;
+}
+
+.oneTimePurch {
+    background-color: #f0d8a8;
+    padding: 15px;
+    border-radius: 10px 10px 0 0;
+    font-weight: bold;
+    font-size: 35px;
+    margin: 0px;
+}
+
+.content3{
+    align-self: start;
+    justify-self: start;
+    text-align: center;
+    border: 2px solid lightgray;
+    border-radius: 10px;
+    margin: 10px;
+    background-color: #f3f6f0;
+}
+
+.subAndSave {
+    background-color: #549663;
+    padding: 15px;
+    border-radius: 10px 10px 0 0;
+    font-weight: bold;
+    font-size: 35px;
+    color: white;
+    margin: 0px;
+}
+
+.buynowButton{
+    background-color: #ffd800;
+    border: #ffd800;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+.buynowText{
+    font-size: 30px;
+    font-weight: bold;
+}
+
+/* 90 day money back */
+.content4{
+    grid-column: span 2;
+    align-self: center;
+    justify-self: center;
+    text-align: center;
+}
+
+/* big green banner */
+.content5{
+    grid-column: span 2;
+    text-align: center;
+    background-color: #549663;
+    color: white;
+}
+
+.bigTextBanner{
+    font-size: 40px;
+    font-weight: bold;
+}
+
+.emptySpace {
+    grid-column: span 2;
+}
+
+.content6 {
+    align-self: start;
+    justify-self: end;
+    text-align: start;
+    margin: 10px;
+}
+
+.content7 {
+    align-self: start;
+    justify-self: start;
+    text-align: start;
+    margin: 10px;
+}
+
+.fourPics {
+    border-radius: 20px;
+}
+
+.content8 {
+    grid-column: span 2;
+    align-self: center;
+    justify-self: center;
+    text-align: center;
+}
+
+.content9{
+    align-self: start;
+    justify-self: end;
+    text-align: start;
+    margin: 10px;
+    background-color: whitesmoke;
+    border-radius: 15px;
+    padding: 5px;
+    display: grid;
+    grid-template-columns: auto auto;
+    grid-template-rows: auto auto;
+}
+
+.textArea{
+    grid-column: span 2;
+}
+
+.starsArea {
+    align-self: center;
+    justify-self: end;
+}
+
+.content10{
+    align-self: start;
+    justify-self: start;
+    text-align: start;
+    margin: 10px;
+    background-color: whitesmoke;
+    border-radius: 15px;
+    padding: 5px;
+    display: grid;
+    grid-template-columns: auto auto;
+    grid-template-rows: auto auto;
+}
+
+.bgcolorClass{
+    grid-column: span 2;
+    background-color: #f1f0f5;
+}
+
+.content11{
+    align-self: center;
+    justify-self: end;
+    text-align: start;
+    margin: 10px;
+    border: 1px solid lightgray;
+    border-radius: 15px;
+    padding: 5px;
+}
+
+.content12{
+    align-self: center;
+    justify-self: start;
+    text-align: start;
+    margin: 10px;
+}
+
+.content13 {
+    grid-column: span 2;
+    align-self: center;
+    justify-self: center;
+    text-align: start;
+}
+
+.content14{
+    grid-column: span 2;
+    background-color: #549663;
+    display: grid;
+    grid-template-rows: auto auto;
+    grid-template-columns: auto auto;
+    margin: 50px;
+    border-radius: 20px;
+}
+
+.title{
+    grid-column: span 2;
+    text-align: center;
+}
+
+.pictureArea{
+    align-self: start;
+    justify-self: start;
+}
+
+.someText{
+    align-self: center;
+    justify-self: center;
+    opacity: 90%;
+}
+
+.content15{
+    grid-column: span 2;
+    display: grid;
+    grid-template-columns: auto auto auto;
+    background-color: #f1f0f5;
+}
+
+.whyGreenLean{
+    grid-column: span 3;
+    align-self: center;
+    justify-self: center;
+    text-align: center;
+}
+
+.leftPart{
+    align-self: center;
+    justify-self: end;
+    text-align: end;
+}
+
+.middlePart{
+    align-self: center;
+    justify-self: center;
+    text-align: center;
+}
+
+.rightPart{
+    align-self: center;
+    justify-self: start;
+    text-align: start;
+}
+
+.content16{
+    grid-column: span 2;
+    display: grid;
+    grid-template-columns: auto auto;
+    background-color: #edf0e0;
+    opacity: 90%;
+}
+
+.leftSide{
+    align-self: start;
+    justify-self: end;
+    text-align: center;
+    margin: 10px;
+    background-color: white;
+    border-radius: 10px;
+    padding: 10px;
+}
+
+.rightSide{
+    align-self: start;
+    justify-self: start;
+    text-align: center;
+    margin: 10px;
+    background-color: white;
+    border-radius: 10px;
+    padding: 10px;
+}
+
+.content17{
+    grid-column: span 2;
+    display: grid;
+    grid-template-columns: auto auto;
+    background-color: #f1f0f5;
+}
+
+.questions{
+    grid-column: span 2;
+    align-self: center;
+    justify-self: center;
+    padding: 10px;
+}
+
+.collapsible {
+    background-color: #549663;
+    color: white;
+    cursor: pointer;
+    padding: 18px;
+    width: 100%;
+    border: none;
+    text-align: left;
+    outline: none;
+    border-radius: 10px;
+}
+
+.active, .collapsible:hover {
+    background-color: green;
+}
+
+.collapsible:after {
+    content: '\02C5';
+    color: white;
+    font-weight: bold;
+    float: right;
+
+}
+
+.active:after {
+    content: "\02C4";
+}
+
+.contentCollapsible {
+    padding: 0 18px;
+    max-height: 0;
+    overflow: hidden;
+    transition: max-height 0.2s ease-out;
+    background-color: white;
+    border: 1px solid #549663;
+    border-radius: 10px;
+}
+
+.content18{
+    grid-column: span 2;
+    align-self: center;
+    justify-self: center;
+    text-align: center;
+    border-bottom: 2px solid #f1f0f5;
+}
+
+.content19{
+    grid-column: span 2;
+    align-self: center;
+    justify-self: center;
+    text-align: center;
+    font-size: 15px;
+}
+
+.content20{
+    grid-column: span 2;
+    align-self: center;
+    justify-self: center;
+    text-align: center;
+    font-size: 15px;
+    border: 1px solid black;
+    margin-bottom: 10px;
+}
+
+/*@media screen and (max-width: 600px) {*/
+@media (max-width: 600px) {
+    /*html{*/
+    /*    background-color: blue;*/
+    /*}*/
+    .content2{
+        grid-column: span 2;
+        align-self: center;
+        justify-self: center;
+        text-align: center;
+    }
+    .content3{
+        grid-column: span 2;
+        align-self: center;
+        justify-self: center;
+        text-align: center;
+    }
+    .content6{
+        grid-column: span 2;
+        align-self: center;
+        justify-self: center;
+        text-align: center;
+    }
+    .content7{
+        grid-column: span 2;
+        align-self: center;
+        justify-self: center;
+        text-align: center;
+    }
+    .content9{
+        grid-column: span 2;
+        align-self: center;
+        justify-self: center;
+        text-align: center;
+    }
+    .content10{
+        grid-column: span 2;
+        align-self: center;
+        justify-self: center;
+        text-align: center;
+    }
+    .content11{
+        grid-column: span 2;
+        align-self: center;
+        justify-self: center;
+        text-align: center;
+    }
+    .content12{
+        grid-column: span 2;
+        align-self: center;
+        justify-self: center;
+        text-align: center;
+    }
+}
+
+
+
+
